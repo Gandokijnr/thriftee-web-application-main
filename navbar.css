@@ -1,0 +1,75 @@
+*{
+    font-family:'https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Ubuntu+Condensed&display=swap';
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+width: 100%;
+}
+
+#get_started{
+    background: #a8eb12;
+
+}
+
+/* start toggler content controller on media screen devices  */
+
+@media(max-width: 989px){
+
+    body{
+        width: 100%;
+        }
+
+    #nav_list{
+        display: block;
+        position: relative;
+        left: -19rem;
+    
+    }
+}
+
+/* end toggler content controller on media screen devices  */
+
+
+
+.fold,
+.foldnavbar_scroll{
+    background: #051937;
+    color: white;
+}
+
+
+
+#navbar_scroll{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-sizing: border-box;
+    background: #051937;
+   
+}
+
+.navbar a{
+    color: white;
+    }
+
+    .navbar a:hover{
+        color: grey;
+    }
+
+
+    .navbar a:active{
+        color: grey;
+    }
+
+#nav_list{
+    margin-left: 20rem;
+}
+
+
+
+
+

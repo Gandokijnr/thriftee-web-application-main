@@ -1,0 +1,262 @@
+*{
+    font-family:'https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Ubuntu+Condensed&display=swap';
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+width: 100%;
+}
+
+#get_started{
+    background: #a8eb12;
+
+}
+
+/* start toggler content controller on media screen devices  */
+
+@media(max-width: 989px){
+
+    body{
+        width: 100%;
+        }
+
+    #nav_list{
+        display: block;
+        position: relative;
+        left: -19rem;
+    
+    }
+}
+
+/* end toggler content controller on media screen devices  */
+
+
+
+.fold{
+    background: white;
+    color: #000;
+}
+
+main{
+    background-image: white;
+}
+
+#navbar_scroll{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 12px grey;
+    background: #051937;
+}
+
+.navbar a{
+    color: white;
+    }
+
+    .navbar a:hover{
+        color: grey;
+    }
+
+
+    .navbar a:active{
+        color: grey;
+    }
+
+#nav_list{
+    margin-left: 20rem;
+}
+
+#main_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+@media (max-width: 799px) {
+    body{
+        max-width: 100%;
+    }
+    
+        #main_content{
+            width: auto;
+            display: block;
+            }
+    
+            .content_image, img{
+               max-width: 100%;
+            }
+    }
+
+
+
+.content-intro{
+    color: #000;
+    font-size: 3rem;
+}
+
+.content_image{
+
+    border-bottom-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+}
+
+.services_product_list{
+    background: #051937;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* product and services (card) listing css */
+
+#card{
+    font-size: larger;
+    background: #051937;
+    color: #fff;
+     
+}
+
+/* banner section design */
+
+#banner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.banner1, .banner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 1rem;
+    border-radius: 1rem;
+    /* border: 1px dashed; */
+    transition: 0.2s ease-in-out;
+
+}
+
+
+
+.banner1
+{   
+    max-width: 80%;
+
+    background-image: url("font3-removebg-preview.png");   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.banner2
+{
+    background-image: url("font5-removebg-preview.png");   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner1 h3, .banner2 h3{
+    font-size: 3rem;
+    color: rgba(58, 71, 150, 0.452);
+    padding: 5rem 5rem;
+    border-radius: 50%;
+    transition: .0.1s ease-in-out;
+}
+
+.banner1:hover,
+.banner2:hover{
+    background: #a8eb12;
+    color: black;
+    border-radius: 0%;
+    text-shadow: 12px 12px 20px rgb(12, 116, 55);
+    cursor: pointer;
+}
+
+.banner1 h3:hover,
+.banner2 h3:hover{
+    color: black;
+}
+
+
+
+/* Banner1 and Banner2 media query */
+
+@media (max-width: 1008px) {
+    
+#banner{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+}
+
+
+
+/* FOOTER SECTION */
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    background-image: linear-gradient(to top, #051937, #004d7a);
+}
+
+
+
+#footer
+.company,
+.product,
+.resources,
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2rem;
+}
+
+#footer .company a,
+.product a,
+.resources a,
+.contact a{
+    text-decoration: none;
+    line-height: 3rem;
+    color: white;
+    font-size: larger;
+}
+
+.container-fluid .policy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+    padding: 3rem;
+}
+
+#help{
+    position: fixed;
+    bottom: 4rem;
+    right: 2rem;
+
+}
+
+svg{
+    background: green;
+    position: relative;
+    left: 1rem;
+    color: white;
+    border-radius: 50%;
+    padding: 5%;
+}
+
+
+
+

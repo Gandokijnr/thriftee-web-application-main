@@ -1,0 +1,39 @@
+
+
+.container
+{
+    background: rgb(241, 226, 226);
+    border-radius: 5px;
+    height: 50rem;
+}
+
+.row
+{
+    background: rgb(241, 226, 226);
+}
+
+.textarea
+{
+    resize: none;
+    border: none;
+    outline: none;
+    background: rgb(241, 226, 226);
+    border-radius: 5px;
+}
+
+.message_container
+{
+    margin-top: 2rem;
+}
+
+.btn
+{
+    background: whitesmoke;
+    position: absolute;
+    left: 45%;
+    padding: 1rem;
+    color: black;
+    font-weight: 700;
+    margin-top: 2rem;    
+    margin-bottom: 2rem;    
+}

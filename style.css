@@ -1,0 +1,115 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background: rgb(250, 248, 248);
+
+}
+
+header
+{
+   background: rgb(247, 239, 239);
+}
+
+header
+{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 999;
+}
+
+header nav
+{
+    height: 5rem;
+    box-shadow: 3px 3px 50px 50px rgb(241, 226, 226);
+    
+    
+    
+}
+
+form a img {
+    width: 3rem;
+    border-radius: 10px;
+}
+
+ul li a {
+    margin: 3rem;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    ;
+
+}
+
+main .container
+{
+    margin-top: 6%;
+    font-family: 'Dancing Script';
+    display: flex;
+    justify-content:space-between;
+}
+
+main .container h1
+{
+    line-height:5rem;
+}
+
+.container_image
+{
+    width: 40rem;
+    margin-top: -5%;
+}
+
+main .service
+
+{
+    margin-top: 4rem;
+    background: rgb(247, 239, 239);
+    padding: 3%;
+}
+
+#column2
+{
+    background: rgb(247, 239, 239);
+
+}
+
+.frequently_question
+{
+    margin-top: 2rem;
+}
+
+
+.frequently_question h2
+{
+    font-family: 'Raleway', sans-serif;
+    margin: 4% 4%;
+    justify-content: center;
+}
+
+#row
+{
+    font-family: 'Raleway', sans-serif;
+    background: rgb(247, 239, 239);
+
+}
+
+#get_started_btn
+{
+    font-family: 'Raleway', sans-serif;
+    background:  rgb(241, 226, 226);
+    font-size:x-large;
+}
+
+#dropdown
+{
+    background: rgb(247, 239, 239);
+border: none;
+color: black;
+}
+
+/* //.container form css */
+
