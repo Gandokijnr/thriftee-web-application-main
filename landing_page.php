@@ -74,16 +74,16 @@
   <main>
     <div class="container">
       <div class="text">
-      <h1 class="text-dark">MANAGING YOUR BUSINESS <br>JUST GOT <br>EASIER</h1>
-      <button id="get_started_btn" class="btn my-5">
-      <a href="pages-register.php" class="text-decoration-none text-dark">GET STARTED</a></button>
+      <!-- <h1 class="text-dark">MANAGING YOUR BUSINESS <br>JUST GOT <br>EASIER</h1> -->
+      <!-- <button id="get_started_btn" class="btn my-5"> -->
+      <!-- <a href="pages-register.php" class="text-decoration-none text-dark">GET STARTED</a></button> -->
       
       </div>
       <video width="3400" height="340" autoplay muted>
   <source src="assetss/START SAVING.mp4" type="video/mp4">
   <source src="assetss/T.mp4" type="video/mp4">
   <!-- <img class="container_image" src="assetss/png image.png" alt=""> -->
-    
+
 </video>
       <div class="image d-flex">
       <!-- <img class="container_image" src="assetss/farmers 2.png" alt=""> -->

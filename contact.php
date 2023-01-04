@@ -78,6 +78,7 @@
                 <i class="fa-solid fa-location-dot"></i>
                 <p>bolaji street</p>
             </div>
+            
             <div class="col">
                 <i class="fa-solid fa-phone"></i>
                 <p>bolaji street</p>
