@@ -202,8 +202,54 @@
   </main>
 
 
-  <footer>
-
+  <footer class=" bg-dark text-light my-5">
+<div class="container">
+  <h2>THRIFTEE</h2>
+</div>
+<div class="container text-center">
+  <div class="row align-items-start">
+    <div class="col">
+    <h4>Company</h4>
+     <ul>
+     <li><a  href="" style="text-decoration: none">About Us</a></li>
+     <li><a  href="" style="text-decoration: none">Careers</a></li>
+     <li><a  href="" style="text-decoration: none">Team</a></li>
+     <li><a  href="" style="text-decoration: none">Contact</a></li>
+      
+     </ul>
+    </div>
+    <div class="col">
+    <h4>Product</h4>
+     <ul>
+     <li><a href="">Contribution</a></li>
+     <li><a href="">Loans</a></li>
+     <li><a href="">Savings Plan</a></li>
+     <li><a href="">Features</a></li>
+      
+     </ul>
+    </div>
+    <div class="col">
+    <h4>Resources</h4>
+     <ul>
+     <li><a href="">Customer's Stories</a></li>
+     <li><a href="">FAQs</a></li>
+     <li><a href="">Security</a></li>
+     <li><a href="">Blog</a></li>
+      
+     </ul>
+    </div>
+    <div class="col">
+    <h4>Contact</h4>
+     <ul class="footer_listing">
+     <li><a href="">44, Commercial Avenue, Yaba, Lagos</a></li>
+     <li><a href="">info@thriftee@gmail.com</a></li>
+     <li><a href="">+23432398923</a></li>
+     <li><a href="">Whatsapp</a></li>
+      
+     </ul>
+    </div>
+  </div>
+</div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>

@@ -197,7 +197,7 @@ if ($result) {
                       </div>
                     </div>
                     <div class="col-12">
-                      <button class="btn btn-primary w-100 p-3" name="submit" type="submit">Create Account</button>
+                      <button class="btn w-100 p-3" name="submit" type="submit" style="background: rgb(241, 116, 226);">Create Account</button>
                     </div>
                     <div class="col-12">
                       <p class="small mb-0">Already have an account? <a href="pages-login.php">Log in</a></p>

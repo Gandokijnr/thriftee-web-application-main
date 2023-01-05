@@ -183,11 +183,11 @@ if (isset($_POST['submit'])) {
                       </div>
                     </div>
                     <div class="col-12">
-                      <button class="btn btn-primary w-100 p-3" name="submit" type="submit">Login</button>
+                      <button class="btn  w-100 p-3" name="submit" type="submit" style="background: rgb(241, 116, 226);">Login</button>
                     </div>
 
                     <div class="col-12">
-                      <button class="btn btn-primary w-100 p-3" name="submit" type="submit"><a href="reset-password.php" class="text-light">Reset Password</a></button>
+                      <button class="btn w-100 p-3" name="submit" type="submit" style="background: rgb(241, 116, 226);"><a href="reset-password.php" class="text-dark" >Reset Password</a></button>
                     </div>
 
                     <div class="col-12">

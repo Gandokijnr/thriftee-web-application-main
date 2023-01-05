@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 
+
 body
 {
     background: rgb(250, 248, 248);
@@ -111,5 +112,4 @@ border: none;
 color: black;
 }
 
-/* //.container form css */
-
+/* //.footer form css */
