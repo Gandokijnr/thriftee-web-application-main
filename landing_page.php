@@ -202,50 +202,47 @@
   </main>
 
 
-  <footer class=" bg-dark text-light my-5">
-<div class="container">
-  <h2>THRIFTEE</h2>
-</div>
-<div class="container text-center">
-  <div class="row align-items-start">
+  <footer class=" bg-dark text-light"  style="font-family: Founders Grotesk, Inter">
+  <h2 class=" mx-5 p-5">THRIFTEE</h2>
+<div class="container text-left">
+  <div class="row">
     <div class="col">
-    <h4>Company</h4>
-     <ul>
-     <li><a  href="" style="text-decoration: none">About Us</a></li>
-     <li><a  href="" style="text-decoration: none">Careers</a></li>
-     <li><a  href="" style="text-decoration: none">Team</a></li>
-     <li><a  href="" style="text-decoration: none">Contact</a></li>
+    <h4 class="d-grid">Company</h4>
+     <ul class="my-3">
+     <a class="d-grid" href="" >About Us</a>
+     <a class="d-grid" href="" >Careers</a>
+     <a class="d-grid" href="" >Team</a>
+     <a class="d-grid" href="" >Contact</a>
       
      </ul>
     </div>
     <div class="col">
     <h4>Product</h4>
-     <ul>
-     <li><a href="">Contribution</a></li>
-     <li><a href="">Loans</a></li>
-     <li><a href="">Savings Plan</a></li>
-     <li><a href="">Features</a></li>
+     <ul class="my-3">
+     <a class="d-grid" href="">Contribution</a>
+     <a class="d-grid" href="">Loans</a>
+     <a class="d-grid" href="">Savings Plan</a>
+     <a class="d-grid" href="">Features</a>
       
      </ul>
     </div>
     <div class="col">
     <h4>Resources</h4>
-     <ul>
-     <li><a href="">Customer's Stories</a></li>
-     <li><a href="">FAQs</a></li>
-     <li><a href="">Security</a></li>
-     <li><a href="">Blog</a></li>
+     <ul class="my-3">
+    <a class="d-grid" href="">Customer's Stories</a>
+    <a class="d-grid" href="">FAQs</a>
+    <a class="d-grid" href="">Security</a>
+    <a class="d-grid" href="">Blog</a>
       
      </ul>
     </div>
     <div class="col">
-    <h4>Contact</h4>
-     <ul class="footer_listing">
-     <li><a href="">44, Commercial Avenue, Yaba, Lagos</a></li>
-     <li><a href="">info@thriftee@gmail.com</a></li>
-     <li><a href="">+23432398923</a></li>
-     <li><a href="">Whatsapp</a></li>
-      
+    <h4 class="text-center">Contact</h4>
+     <ul class="my-3">
+    <a class="d-grid" href="">44, Commercial Avenue, Yaba, Lagos</a>
+    <a class="d-grid" href="">info@thriftee@gmail.com</a>
+    <a class="d-grid" href="">+23432398923</a>
+    <a class="d-grid" href="">Whatsapp</a>
      </ul>
     </div>
   </div>

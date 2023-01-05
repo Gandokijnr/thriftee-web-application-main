@@ -1,5 +1,5 @@
 
-
+<?php session_start() ?>
 
 
 <!DOCTYPE html>
@@ -69,20 +69,19 @@
                     <h5 class="card-title text-center pb-0 fs-4">Reset Password</h5>
                   </div>
 
-                  <?php echo $msg ?>
 
                   <form method="post" class="row g-3 needs-validation" novalidate>
                      
 
                     <div class="col-12">
-                      <label for="yourPassword" class="form-label">New Password</label>
+                      <label for="yourPassword" class="form-label">Enter Your Email Address</label>
                       <input type="password" name="new_pass" class="form-control" id="yourPassword" required>
                     </div>
 
-                    <div class="col-12">
+                    <!-- <div class="col-12">
                       <label for="yourPassword" class="form-label">Confirm Password</label>
                       <input type="password" name="con_pass" class="form-control" id="yourPassword" required>
-                    </div>
+                    </div> -->
 
                    
                     <div class="col-12">
