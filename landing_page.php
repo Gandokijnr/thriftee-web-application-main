@@ -181,7 +181,7 @@
 
    <!-- FREQUENTLY ASK QUESTION -->
 
-   <div class="frequently_question mb-5">
+   <div class="frequently_question mb-5 d-flex">
    
     <button class="btn btn-dark mx-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"> <h2>FREQUENTLY ASKED QUESTION</h2>
     </button>
@@ -198,7 +198,15 @@
           <b>WHY SHOULD I JOIN THRIFTEE</b>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ab ad asperiores iste. Recusandae rerum a maxime unde repellat laborum saepe error atque exercitationem. Nostrum ad eaque velit inventore quas.</p>
         </div>
+        
       </div>
+      <video width="700" height="300" autoplay muted>
+  <source src="assetss/VIDEO.mp4" type="video/mp4">
+  <!-- <source src="assetss/T.mp4" type="video/mp4"> -->
+  <!-- <img class="container_image" src="assetss/png image.png" alt=""> -->
+
+</video>
+</div>
   </main>
 
 
